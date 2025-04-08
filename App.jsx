@@ -25,7 +25,8 @@ import Email from './authpages/authSignUpPages/Email';
 import Verify from './authpages/authSignUpPages/Verify';
 import AboutUs from './Pages/AboutUs';
 import AdvertisementWithUS from './Pages/Advertisement';
- import termsAndcondition from './Pages/termsAndcondition';
+<Route path="/termsandcondition" element={<TermsAndCondition />} />
+
 import TrendingTopics from './Pages/TrendingTopics';
 
 function App() {
@@ -64,7 +65,7 @@ function App() {
             <Route path="/budget-2025" element={<Budget />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/advertise" element={<AdvertisementWithUS />} />
-            <Route path="/termsandcondition" element={<termsAndcondition />} />
+            <Route path="/termsandcondition" element={<TermsAndCondition />} />
             <Route path="/trending-topics" element={<TrendingTopics />} />
           </>
         ) : (
