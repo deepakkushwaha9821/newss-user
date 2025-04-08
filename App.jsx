@@ -25,7 +25,8 @@ import Email from './authpages/authSignUpPages/Email';
 import Verify from './authpages/authSignUpPages/Verify';
 import AboutUs from './Pages/AboutUs';
 import AdvertisementWithUS from './Pages/Advertisement';
-<Route path="/termsandcondition" element={<TermsAndCondition />} />
+import TermsAndCondition from './Pages/TermsAndCondition';
+import { useState } from 'react';
 
 import TrendingTopics from './Pages/TrendingTopics';
 
