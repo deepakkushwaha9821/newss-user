@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import EyeIcon from '../../assets/loginPageImages/eye-open.png';
 import EyeOffIcon from '../../assets/loginPageImages/eye.png';
-import panaLogo from "../../assets/SignuppageImages/pana.png";
+import panaLogo from "../../assets/signUpPageImages/pana.png";
 
 const Signup = () => {
     const [showPassword, setShowPassword] = useState(false);
